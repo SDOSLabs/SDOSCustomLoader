@@ -1,0 +1,15 @@
+source 'http://git.sdos.es/ios/cocoapods-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+
+def shared_pods
+	pod 'SDOSCustomLoader', :path => '../../', :inhibit_warnings => false
+    
+end
+
+target :SDOSCustomLoaderSample do
+	shared_pods
+end
