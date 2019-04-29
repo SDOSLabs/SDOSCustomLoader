@@ -37,7 +37,7 @@
 - (id)initWithFrame:(CGRect)frame type:(enum SDOSLoaderProgressType)progressType {
   if (self = [super initWithFrame:frame]) {
     [self initLayer];
-    _type = progressType;
+    [self setProgressType:progressType];
   }
   return self;
 }
