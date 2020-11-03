@@ -19,8 +19,8 @@ typedef NS_ENUM(NSUInteger, SDOSLoaderProgressType) {
 
 - (_Nonnull instancetype)initWithFrame:(CGRect)frame type:(enum SDOSLoaderProgressType)progressType;
 
-@property(strong, nonatomic) UIColor *progressColor;
-@property(strong, nonatomic) UIColor *trackColor;
+@property(strong, nonatomic) UIColor * _Nullable progressColor;
+@property(strong, nonatomic) UIColor * _Nullable trackColor;
 @property(nonatomic) enum SDOSLoaderProgressType progressType;
 @property(nonatomic) enum SDOSLoaderProgressStyle progressStyle;
 @property(nonatomic) CGFloat circularProgressDiameter;

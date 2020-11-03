@@ -1,3 +1,7 @@
+## [HEAD]
+
+- Add support for Swift Package Manager
+
 ## [1.0.1 Fix loaders determinados](https://github.com/SDOSLabs/SDOSCustomLoader/tree/v1.0.0)
 
 - Arreglados los loaders determinados

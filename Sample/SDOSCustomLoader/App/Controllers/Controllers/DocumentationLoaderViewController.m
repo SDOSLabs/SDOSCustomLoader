@@ -163,10 +163,10 @@
 #pragma mark - User Interaction
 
 - (IBAction)showExample {
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:ExampleLoader bundle:nil];
-    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:ExampleLoaderNavigationController];
-    
-    [self presentViewController:vc animated:YES completion:nil];
+//    UIStoryboard *sb = [UIStoryboard storyboardWithName:ExampleLoader bundle:nil];
+//    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:ExampleLoaderNavigationController];
+//    
+//    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void) reloadPage:(UIBarButtonItem *)sender {
