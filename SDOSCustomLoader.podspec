@@ -1,13 +1,13 @@
-@version = "1.0.1"
+@version = "1.1.0"
 Pod::Spec.new do |spec|
   spec.platform     = :ios, '8.0'
   spec.name         = 'SDOSCustomLoader'
   spec.authors      = 'SDOS'
   spec.version      = @version
-  spec.license      = { :type => 'SDOS License' }
-  spec.homepage     = 'https://svrgitpub.sdos.es/iOS/SDOSCustomLoader'
+  spec.homepage     = 'https://github.com/SDOSLabs/SDOSCustomLoader'
+  spec.license      = { :type => 'MIT' }
   spec.summary      = 'Librería con la definición de un tipo de loader'
-  spec.source       = { :git => "https://svrgitpub.sdos.es/iOS/SDOSCustomLoader.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SDOSLabs/SDOSCustomLoader.git", :tag => "#{spec.version}" }
   spec.framework    = ['Foundation', 'UIKit']
   spec.requires_arc = true
 

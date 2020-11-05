@@ -1,7 +1,7 @@
 PODS:
-  - SDOSCustomLoader (1.0.0):
-    - SDOSCustomLoader/CustomLoader (= 1.0.0)
-  - SDOSCustomLoader/CustomLoader (1.0.0)
+  - SDOSCustomLoader (1.0.1):
+    - SDOSCustomLoader/CustomLoader (= 1.0.1)
+  - SDOSCustomLoader/CustomLoader (1.0.1)
 
 DEPENDENCIES:
   - SDOSCustomLoader (from `../../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  SDOSCustomLoader: d64d12689b28bff1fde2216e4ccdbc3f4bba7cf2
+  SDOSCustomLoader: 3a3b55a99666d478767a0ab45677f2204ae51fec
 
-PODFILE CHECKSUM: c1fbfafd11c15e7346c77acb6e012934e595f43c
+PODFILE CHECKSUM: 359c9bbcb5622ce94d74bc1486ac3c7c2916e3dd
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.3
