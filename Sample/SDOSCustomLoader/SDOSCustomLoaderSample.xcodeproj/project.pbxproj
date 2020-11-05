@@ -651,13 +651,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SDOSCustomLoaderSample/Pods-SDOSCustomLoaderSample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDOSCustomLoader/SDOSCustomLoader.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDOSCustomLoaderSample/Pods-SDOSCustomLoaderSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDOSCustomLoader.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDOSCustomLoaderSample/Pods-SDOSCustomLoaderSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -836,7 +835,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosloader.dev;
 				PRODUCT_NAME = SDOSCustomLoaderSample;
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSLoader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -859,7 +859,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosloader.dev;
 				PRODUCT_NAME = SDOSCustomLoaderSample;
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSLoader-Bridging-Header.h";
 			};
@@ -927,7 +928,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosloader.dev;
 				PRODUCT_NAME = SDOSCustomLoaderSample;
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSLoader-Bridging-Header.h";
 			};
@@ -990,7 +992,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosloader.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSLoader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1012,7 +1015,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosloader.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSLoader-Bridging-Header.h";
 			};
@@ -1033,7 +1037,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosloader.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSLoader-Bridging-Header.h";
 			};

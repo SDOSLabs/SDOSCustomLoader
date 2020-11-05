@@ -73,8 +73,7 @@ Incluir la librería en el o los targets desados:
 
 ## Cómo se usa
 
-Para utilizarlo se recomienda el uso de la dependencia [`SDOSLoader`](https://kc.sdos.es/x/pQXLAQ), que ofrece una fachada para la utilización de esta librería y otros loaders
+Para utilizarlo se recomienda el uso de la dependencia [`SDOSLoader`](https://github.com/SDOSLabs/SDOSLoader), que ofrece una fachada para la utilización de esta librería y otros loaders
 
 ## Referencias
-* https://github.com/SDOSLabs/SDOSLoader
-* [SDOSLoader](https://kc.sdos.es/x/pQXLAQ)
+* [SDOSLoader](https://github.com/SDOSLabs/SDOSLoader)
